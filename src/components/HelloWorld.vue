@@ -5,14 +5,18 @@
 </template>
 
 <script>
+import md5 from 'js-md5'
 export default {
   name: 'getCurrentTime',
   data() {
     return {
-      currentTime: ''
+      currentTime: '',
+      password:'123456abc'
     }
   },
   mounted() {
+    console.log(this.password)
+    console.log(md5(this.password))
     this.currentTime = 3;
 
     this.$nextTick(() => {
