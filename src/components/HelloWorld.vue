@@ -15,8 +15,9 @@ export default {
     }
   },
   mounted() {
-    console.log(this.password)
-    console.log(md5(this.password))
+    //获取当前页面的路由的path或name
+    console.log(this.$route.path)
+    console.log(this.$route.name)
     this.currentTime = 3;
 
     this.$nextTick(() => {

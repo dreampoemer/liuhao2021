@@ -15,8 +15,8 @@
     "less": "^4.1.1",
     "less-loader": "^4.1.0",
     "normalize.css": "^8.0.1",
-    "style-loader": "^3.0.0",
-    "vant": "^2.12.23",
+    "style-loader": "^3.2.1",
+    "vant": "^2.12.26",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

@@ -12,6 +12,11 @@ export default new Router({
       component: HelloWorld
     },
     {
+      path: '/hello',
+      name: 'HelloWorld',
+      component: HelloWorld
+    },
+    {
       path: '/app',
       name: 'MyApp',
       component: resolve => require(['@/views/myapp'], resolve)
